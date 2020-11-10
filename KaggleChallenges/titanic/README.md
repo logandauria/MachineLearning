@@ -3,8 +3,15 @@ the file "tree_learn.py" is an implementation of the titanic data set challenge 
 the initial dataset can be viewed in the file "train.csv"   
 the resulting decision tree can be viewed in the file "tree.png"
 
+## How to run
+the program needs to be run in an environment including pandas, sklearn, numpy, and matplotlib
+it does not accept any command line arguments and can be run as:
+    python tree_learn.py
+
 ## Data Cleaning Implementation
-Data was necessary because sklearn's decision tree function only accepts nominal values. Many of the data fields contained Strings that needed to be adjusted. Here is a list of adjustments I made to the data
+Data was necessary because sklearn's decision tree function only accepts nominal values. Many of the data fields contained Strings that needed to be adjusted. Here is a list of adjustments I made to the data   
+    
+    
 
 I kept the name feature as is, because I did not feel I could get any extra information off of unique strings when age and gender were already accounted for.   
 I changed ticket information if it contained any letters to be at a hundredths place corresponding with the letter (A=100,O=200, etc)   
