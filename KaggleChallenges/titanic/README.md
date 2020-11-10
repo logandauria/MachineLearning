@@ -1,11 +1,12 @@
 # Introduction
-the file "tree_learn.py" is an implementation of the titanic data set challenge by Kaggle.com   
-the initial dataset can be viewed in the file "train.csv"   
-the resulting decision tree can be viewed in the file "tree.png"
+The file "tree_learn.py" is an implementation of the titanic data set challenge by Kaggle.com   
+The initial dataset can be viewed in the file "train.csv"   
+The resulting decision tree can be viewed in the file "tree.png"
 
 ## How to run
-the program needs to be run in an environment including pandas, sklearn, numpy, and matplotlib
-it does not accept any command line arguments and can be run as:
+The program needs to be run in an environment including pandas, sklearn, numpy, and matplotlib
+it does not accept any command line arguments and can be run as:        
+
     python tree_learn.py
 
 ## Data Cleaning Implementation
